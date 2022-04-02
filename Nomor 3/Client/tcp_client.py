@@ -12,7 +12,7 @@ import random
 import concurrent.futures
 
 server_address = ('172.16.16.101', 12000)
-banyak_request = 10
+banyak_request = 100
 banyakresp = 0
 latensi = 0
 
@@ -104,10 +104,10 @@ def ambildatapemain(index, mainres):
         mainres[index] = -1
 
 if __name__ == '__main__':
-    #worker = 1
+    worker = 1
     #worker = 5
     #worker = 10
-    worker = 20
+    #worker = 20
 
     tugas = {}
     hasil = {}

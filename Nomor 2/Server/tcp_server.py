@@ -86,7 +86,7 @@ def jalankan_server(server_address):
     logging.warning(f'starting up on {server_address}')
     sock.bind(server_address)
 
-    sock.listen(1)
+    sock.listen(1000)
 
     while True:
         logging.warning('waiting for a connection')
