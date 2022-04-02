@@ -77,7 +77,7 @@ def jalankan_server(server_address):
                 if '\r\n\r\n' in data_received:
                     result = process_request(data_received)
                     # logging.warning(f'Result: {result}')
-                    # sleep(1)
+                    sleep(0.1)
 
                     result = serialized(result)
                     result += '\r\n\r\n'
