@@ -13,30 +13,30 @@ Document Path:          /rfc2616.pdf
 Document Length:        550562 bytes
 
 Concurrency Level:      1
-Time taken for tests:   190.984 seconds
+Time taken for tests:   89.682 seconds
 Complete requests:      50
 Failed requests:        0
 Total transferred:      27535400 bytes
 HTML transferred:       27528100 bytes
-Requests per second:    0.26 [#/sec] (mean)
-Time per request:       3819.674 [ms] (mean)
-Time per request:       3819.674 [ms] (mean, across all concurrent requests)
-Transfer rate:          140.80 [Kbytes/sec] received
+Requests per second:    0.56 [#/sec] (mean)
+Time per request:       1793.642 [ms] (mean)
+Time per request:       1793.642 [ms] (mean, across all concurrent requests)
+Transfer rate:          299.84 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.0      0       0
-Processing:  2044 3819 825.4   3789    5656
-Waiting:     2044 3725 811.1   3652    5401
-Total:       2045 3820 825.4   3789    5656
+Connect:        0    0   0.1      0       0
+Processing:  1268 1793 395.2   1705    2834
+Waiting:     1226 1748 397.2   1648    2766
+Total:       1268 1794 395.2   1705    2834
 
 Percentage of the requests served within a certain time (ms)
-  50%   3789
-  66%   4247
-  75%   4384
-  80%   4543
-  90%   4994
-  95%   5199
-  98%   5656
-  99%   5656
- 100%   5656 (longest request)
+  50%   1705
+  66%   1921
+  75%   2023
+  80%   2099
+  90%   2357
+  95%   2666
+  98%   2834
+  99%   2834
+ 100%   2834 (longest request)
